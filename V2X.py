@@ -73,9 +73,7 @@ class TCVert2Intersection(bpy.types.Operator):
     @classmethod
     def poll(cls, context):
         objs = context.selected_objects
-        if len(objs) >2:
-            return 0
-        if len(objs)==0:
+        if len(objs) >2 or len(objs)==0:
             return 0
         for obj in objs:
             if obj is None or obj.type != 'MESH' or obj.mode != 'EDIT':
