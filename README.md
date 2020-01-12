@@ -53,7 +53,7 @@ Intersect all, it programatically goes through all selected edges and slices the
 
 ### V2X (Vertex to Intersection)
 
-This might be a niche accessory, but sometimes all you want is a vertex positioned on the intersection of two edges. Nothing fancy.
+This might be a niche accessory, but sometimes all you want is a vertex positioned on the intersection of two edges. Working with two objects selected, the new Vertex at the intersection will be created and added to the object belonging to the first selected edge.
 
 ### BIX (generate Bisector)
 
